@@ -1,0 +1,51 @@
+:root {
+    --main-color: #E3C590;
+    --main-color-alpha: rgba(227, 196, 144, .6);
+    --bg-color1: #171819;
+    --bg-color2: #0E0D0C;
+    --bg-color-nav: #202020;
+    --bg-color-scrollbar: #2C2C2C;
+    --gray-color: #9C9C9C;
+}
+
+::selection { 
+    background: var(--main-color); 
+    color: #000; 
+
+}
+
+html::-webkit-scrollbar { 
+    width: 12px; 
+}
+
+
+html::-webkit-scrollbar-thumb { 
+    background: var(--main-color); 
+    border-radius: 12px; 
+    cursor: grab; 
+}
+
+html::-webkit-scrollbar-track { 
+    background: var(--bg-color-scrollbar); 
+}
+
+
+body { 
+    font-family: DM Sans, sans-serif;
+    overflow-x: hidden;
+
+
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: Forum, serif; 
+}
+
+
+a { 
+    text-decoration: none; 
+
+}
+
+section { 
+    overflow: hidden; 
+}
